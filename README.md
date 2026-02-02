@@ -5,7 +5,7 @@ The project focuses on extracting structured data from a publicly available webs
 
 ---
 
-## 📌 Objectives
+## Objectives
 - Demonstrate static web scraping using BeautifulSoup.
 - Implement pagination handling.
 - Demonstrate scalable scraping using Scrapy.
@@ -13,12 +13,12 @@ The project focuses on extracting structured data from a publicly available webs
 
 ---
 
-## 🌐 Website Used
+## Website Used
 - https://quotes.toscrape.com  
 This website is intended for scraping practice and does not require authentication.
 ---
 
-## 🧰 Tools & Libraries
+## Tools & Libraries
 - Python
 - BeautifulSoup
 - Requests
@@ -28,28 +28,10 @@ This website is intended for scraping practice and does not require authenticati
 
 ---
 
-## 📂 Project Structure
-
-Web-scraping-using-BeautifulSoup-and-Scrapy/
-│
-├── Webscraping using BeautifulSoup/
-│ ├── Web scraping using BeautifulSoup.ipynb
-│ └── data/
-│ ├── quotes.csv
-│ └── quotes_bs4.csv
-│
-├── Web scraping using Scrapy/
-│ ├── scrapy/
-│ │ └── quotes_spider.py
-│ └── data/
-│ └── quotes_scrapy.csv
-│
-├── README.md
-└── .gitignore
-
+## Project Structure 
 ---
 
-## 🟢 BeautifulSoup Scraping
+## BeautifulSoup Scraping
 - Sends HTTP requests to static web pages.
 - Parses HTML using BeautifulSoup.
 - Extracts quote text, author, and tags.
@@ -58,7 +40,7 @@ Web-scraping-using-BeautifulSoup-and-Scrapy/
 
 ---
 
-## 🔵 Scrapy Scraping
+## Scrapy Scraping
 - Uses Scrapy spider for structured crawling.
 - Automatically handles pagination.
 - Faster and more scalable than manual scraping.
@@ -66,20 +48,34 @@ Web-scraping-using-BeautifulSoup-and-Scrapy/
 
 ---
 
-## 📊 Output Data
+## Output Data
 - Quote text
 - Author name
 - Associated tags
 
 ---
 
-## 📝 Notes
+## Notes
 - This project focuses on **static web scraping**.
 - No browser automation was used.
 
 ---
 
-## ✅ Key Takeaways
+## Key Takeaways
 - BeautifulSoup is suitable for simple to medium scraping tasks.
 - Scrapy is preferred for larger, scalable scraping pipelines.
 - Proper project structure and version control are essential.
+
+## CAPTCHA-Aware Scraping (Exploratory)
+
+This repository also includes an **exploratory CAPTCHA-aware scraping module** located in:
+
+`Captcha solver scraper/`
+
+This module demonstrates:
+- CAPTCHA detection in scraping workflows
+- Integration points for third-party solver services (e.g., 2Captcha)
+- Request retry logic after CAPTCHA resolution
+
+📄 Detailed documentation for this module is available in the  
+**README inside the `Captcha solver scraper` folder**.
