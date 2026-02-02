@@ -29,6 +29,28 @@ This website is intended for scraping practice and does not require authenticati
 ---
 
 ## Project Structure 
+```
+Web-scraping-using-BeautifulSoup-and-Scrapy/
+│
+├── Webscraping using BeautifulSoup/
+│ ├── Web scraping using BeautifulSoup.ipynb
+│ └── data/
+│ ├── quotes.csv
+│ └── quotes_bs4.csv
+│
+├── Web scraping using Scrapy/
+│ ├── scrapy/
+│ │ └── quotes_spider.py
+│ └── data/
+│ └── quotes_scrapy.csv
+│
+├── Captcha solver scraper/
+│ ├── Web scraping using Captcha solver.ipynb
+│ └── README.md
+│
+├── README.md
+└── .gitignore
+```
 ---
 
 ## BeautifulSoup Scraping
