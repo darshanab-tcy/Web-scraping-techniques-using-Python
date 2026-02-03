@@ -9,6 +9,15 @@ The focus of this notebook is **exploratory learning**, showing how a scraper ca
 - Retry requests after CAPTCHA resolution.
 
 ---
+## Legal & Ethical Disclaimer
+
+The captcha-solving logic in this module is provided strictly for educational and conceptual understanding.
+
+- It is intended for use only on owned systems, test environments, or with explicit authorization.
+- It should not be used to bypass security measures on third-party websites.
+- No private, sensitive, or user-specific data is collected or processed.
+
+This project does not encourage or support unauthorized access or violation of website terms of service.
 
 ## Objective
 
